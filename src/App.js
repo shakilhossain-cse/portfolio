@@ -1,7 +1,13 @@
-import "./App.css";
+import Banner from "./components/Banner/Banner";
+import Profile from "./components/Profile/Profile";
 
 function App() {
-  return <div className="App">Hello Wrold</div>;
+  return (
+    <div>
+      <Banner />
+      <Profile />
+    </div>
+  );
 }
 
 export default App;
