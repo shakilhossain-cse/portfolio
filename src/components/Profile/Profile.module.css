@@ -30,6 +30,11 @@
   font-size: 2rem;
   margin-bottom: 5px;
 }
+.data button {
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
 .data p {
   font-size: 1.2rem;
   margin-top: 5px;
