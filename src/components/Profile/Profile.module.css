@@ -63,3 +63,22 @@
   font-weight: 400;
   font-size: 1.2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .details {
+    flex-direction: column;
+  }
+  .useInfo {
+    flex-direction: column;
+  }
+  .userContact {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 2rem;
+  }
+  .border {
+    display: none;
+  }
+  .data{
+    text-align: center;
+  }
+}

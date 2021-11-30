@@ -32,7 +32,7 @@ const Profile = () => {
           </div>
           <div className={styles.contactData}>
             <p>Phone</p>
-            <h4>+88015000000</h4>
+            <h4>+8801568438412</h4>
           </div>
           <div className={styles.contactData}>
             <p>Location</p>

@@ -1,35 +1,39 @@
-
-.sidebar{
-    position: sticky;
-    top: 0;
-    border-radius: 20px;
-    padding: 1rem;
-    width: 15rem;
-    margin-right: 1.5rem;
-   
+.sidebar {
+  position: sticky;
+  top: 0;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 15rem;
+  margin-right: 1.5rem;
 }
-.button{
-    padding: 1rem;
-    font-size: 1.5rem;
-    border-radius: 20px;
-    transition: all .5s ease;
-    cursor: pointer;
-    border:  1px solid #ddd;
-    margin-bottom: 10px;
-    font-weight: 500;
+.button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
-.button:hover{
- background: coral;
+.button:hover {
+  background: coral;
 }
-  @media only screen and (max-width: 600px) {
-    .sidebar_container {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100vw;
-    }
-    .sidebar ul{
-        display: flex;
-        justify-content: space-evenly;
-    }
+@media only screen and (max-width: 600px) {
+  .sidebar_container {
+    background: azure;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
   }
+  .sidebar {
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    margin: 0 auto;
+  }
+  .button {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+}

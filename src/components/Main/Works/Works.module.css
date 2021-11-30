@@ -16,3 +16,9 @@
     border-radius: 5px;
     background: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .works {
+        grid-template-columns: repeat(1, 1fr);
+      }
+  }

@@ -4,7 +4,7 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <>
-      <div style={{ display: "flex" }}>
+      <div className={styles.about}>
         <div className={styles.image}>
           <img
             src="https://scontent.fdac14-1.fna.fbcdn.net/v/t1.6435-9/88370897_189827079124088_1483575849721528320_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_eui2=AeH0umIu9dJx4Xhji9bE0Xch-dllmOutkCz52WWY662QLH-_-ktr4wrpoFKuV_fWALWyb-mlhr_xkfmSCP4PDblY&_nc_ohc=ZkO_fhfnJB4AX9NXa9a&_nc_ht=scontent.fdac14-1.fna&oh=ea39b16c473bad4dd0388142acd32f20&oe=61CA03A5"
@@ -44,7 +44,6 @@ const About = () => {
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-              
               >
                 <path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path>
                 <line x1="2" y1="20" x2="2.01" y2="20"></line>
