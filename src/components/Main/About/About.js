@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={styles.content}>
+    <>
       <div style={{ display: "flex" }}>
         <div className={styles.image}>
           <img
@@ -31,9 +31,7 @@ const About = () => {
       </div>
       <div>
         <div>
-          <h3 style={{ textAlign: "center" }}>
-            What I am Doing
-          </h3>
+          <h3 style={{ textAlign: "center" }}>What I am Doing</h3>
           <div className={styles.works}>
             <div className={styles.work}>
               <svg
@@ -87,7 +85,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
