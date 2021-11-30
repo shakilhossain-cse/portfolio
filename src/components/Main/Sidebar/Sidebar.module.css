@@ -21,7 +21,7 @@
 }
 @media only screen and (max-width: 600px) {
   .sidebar_container {
-    background: azure;
+    background: white;
     width: 100%;
     position: fixed;
     bottom: 0;
