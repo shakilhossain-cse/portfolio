@@ -41,6 +41,11 @@
   font-weight: 500;
   color: rgb(107, 107, 107);
 }
+.border {
+  background: #ddd;
+  height: 5rem;
+  width: 1px;
+}
 .userContact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

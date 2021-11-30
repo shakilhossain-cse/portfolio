@@ -18,6 +18,7 @@ const Profile = () => {
             <button>Download Resume</button>
           </div>
         </div>
+        <div className={styles.border}></div>
         <div className={styles.userContact}>
           <div className={styles.contactData}>
             <p>Email</p>
