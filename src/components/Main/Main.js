@@ -10,7 +10,7 @@ const Main = () => {
   const [category, setCategory] = useState("about");
   return (
     <div className={styles.container}>
-      <Sidebar category={category} setCategory={setCategory} />
+      <Sidebar setCategory={setCategory} />
       <div className={styles.content}>
         {category === "about" ? (
           <About />

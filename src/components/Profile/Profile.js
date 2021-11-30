@@ -15,7 +15,13 @@ const Profile = () => {
           <div className={styles.data}>
             <h2>SHAKIL HOSSAIN</h2>
             <p>Front-end Developer</p>
-            <button>Download Resume</button>
+            <a
+              href="https://drive.google.com/file/d/10aPPEvsKcNkKUoFGb29m5gGUN878MgF_/view"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button>Download Resume</button>
+            </a>
           </div>
         </div>
         <div className={styles.border}></div>
