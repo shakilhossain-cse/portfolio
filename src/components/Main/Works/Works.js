@@ -20,6 +20,7 @@ const Works = () => {
                 <a
                   href={project.livelink}
                   target="_blank"
+                  rel="noreferrer" 
                   style={{
                     textDecoration: "none",
                   }}
@@ -38,6 +39,7 @@ const Works = () => {
                 <a
                   href={project.clintside}
                   target="_blank"
+                  rel="noreferrer" 
                   style={{
                     textDecoration: "none",
                   }}
