@@ -3,6 +3,16 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }
+.work{
+    border: 2px solid #ddd;
+    padding: 10px;
+}
 .work img {
   width: 100%;
+}
+.work button{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
 }
