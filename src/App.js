@@ -1,4 +1,5 @@
 import Banner from "./components/Banner/Banner";
+import Main from "./components/Main/Main";
 import Profile from "./components/Profile/Profile";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <Banner />
       <Profile />
+      <Main/>
     </div>
   );
 }

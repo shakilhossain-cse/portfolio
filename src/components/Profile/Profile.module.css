@@ -31,9 +31,12 @@
   margin-bottom: 5px;
 }
 .data button {
+  background: #fff;
+  border-radius: 5px;
   padding: 10px;
   border: 0;
   cursor: pointer;
+  box-shadow: 0px 5px 23px 0px #ddd;
 }
 .data p {
   font-size: 1.2rem;
@@ -49,7 +52,7 @@
 .userContact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 1.5rem;
 }
 .contactData p {
   margin: 0;
