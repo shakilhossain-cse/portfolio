@@ -23,9 +23,7 @@ const About = () => {
           </p>
           <h1 style={{ fontWeight: "700" }}>About Me</h1>
           <p style={{ color: "rgb(136 136 136)", fontSize: "19px" }}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos
-            saepe ipsa cupiditate accusantium voluptatibus quidem nam,
-            reprehenderit, et necessitatibus adipisci.
+          Hello! My name is Md Shajkil Hossain.A hard working self-motivated and enthusiastic web developer with a deep interest in JavaScript ,as well as the ability to communicate effectively in a team setting, and possessing a strong willingness to learn about modern web technologies .
           </p>
         </div>
       </div>
@@ -49,11 +47,9 @@ const About = () => {
                 <line x1="2" y1="20" x2="2.01" y2="20"></line>
               </svg>
               <div>
-                <h3 style={{ textAlign: "center" }}>Web Design</h3>
+                <h3 style={{ textAlign: "center" }}>RESPONSIVE DESIGN</h3>
                 <p style={{ textAlign: "center" }}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  temporibus quibusdam deserunt corrupti omnis minima atque
-                  repellendus.{" "}
+                without Mobile friendly we can't imagine any website now. Website should be mobile friendly becauase the user always used their mobile first. I prefer responsive design.
                 </p>
               </div>
             </div>
@@ -73,11 +69,9 @@ const About = () => {
                 <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
               </svg>
               <div>
-                <h3 style={{ textAlign: "center" }}>Web Design Full stack</h3>
+                <h3 style={{ textAlign: "center" }}>WEB DEVELOPMENT</h3>
                 <p style={{ textAlign: "center" }}>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
-                  temporibus quibusdam deserunt corrupti omnis minima atque
-                  repellendus.{" "}
+                I have been working on web development world now. I like to use MongoDB, Express, React JS, Node JS, Firebase, Heroku for full functional websites.
                 </p>
               </div>
             </div>
