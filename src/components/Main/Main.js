@@ -12,13 +12,13 @@ const Main = () => {
     <div className={styles.container}>
       <Sidebar category={category} setCategory={setCategory} />
       <div className={styles.content}>
-        {category == "about" ? (
+        {category === "about" ? (
           <About />
-        ) : category == "works" ? (
+        ) : category === "works" ? (
           <Works />
-        ) : category == "contact" ? (
+        ) : category === "contact" ? (
           <Contact />
-        ) : category == "blog" ? (
+        ) : category === "blog" ? (
           <Blog />
         ) : (
           ""
