@@ -74,11 +74,18 @@
   .userContact {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .border {
     display: none;
   }
   .data{
+    text-align: center;
+  }
+  .contactData p {
+    text-align: center;
+  }
+  .contactData h4 {
     text-align: center;
   }
 }
