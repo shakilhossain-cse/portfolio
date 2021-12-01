@@ -64,7 +64,6 @@ const Works = () => {
               >
                 {project.deities.slice(0, 90)}
               </p>
-              <button>View Project</button>
             </div>
           </div>
         ))}
