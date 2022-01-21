@@ -1,15 +1,9 @@
-import Banner from "./components/Banner/Banner";
-import Main from "./components/Main/Main";
-import Profile from "./components/Profile/Profile";
-
 function App() {
-  return (
-    <div>
-      <Banner />
-      <Profile />
-      <Main/>
+  return <div>
+    App File
     </div>
-  );
+    
 }
 
-export default App;
+export default App
+
